@@ -1,0 +1,86 @@
+a,
+a:visited {
+    padding: 50px;
+    color: white;
+}
+
+a:hover {
+    color: #dec4fc;
+}
+
+a:active {
+    color: lightblue;
+}
+
+body {
+    font-family: "Love Ya Like A Sister";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+    text-align: center;
+    padding: 50px;
+    background-image: linear-gradient(dodgerblue, rgb(15, 61, 229));
+    color: white;
+}
+
+.content {
+    grid-area: content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+    justify-items: center;
+    align-items: center;
+}
+
+.cell {
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.description {
+    font-size: 0.7em;
+}
+
+header {
+    padding-bottom: 50px;
+}
+
+footer {
+    padding-top: 50px;
+}
+
+h1 {
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+    color: white;
+}
+
+img {
+    border: 10px dashed white;
+}
+
+.noborder {
+    border: none;
+}
+
+p {
+    font-family: "Love Ya Like A Sister";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+    color: white;
+}
+
+.half {
+    grid-column: span 2;
+    text-align: left;
+    justify-items: center;
+    align-items: center;
+}
+
+.full {
+    grid-column: span 4;
+}
